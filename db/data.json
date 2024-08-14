@@ -74,18 +74,18 @@
     "nombre": "Gorra",
     "precio": 60,
     "categoria": "Ropa",
-    "imagen": "#",
+    "imagen": "assets/cap.jpg",
     "id":12
 }, {
     "nombre": "Lentes de sol",
     "precio": 30,
     "categoria": "Ropa",
-    "imagen": "#",
+    "imagen": "assets/sunglasses.jpg",
     "id":13
 }, {
     "nombre": "Bufanda",
     "precio": 60,
     "categoria": "Ropa",
-    "imagen": "#",
+    "imagen": "assets/scarf.jpg",
     "id":14
 }]
