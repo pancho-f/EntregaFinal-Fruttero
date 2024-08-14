@@ -1,0 +1,91 @@
+[{
+    "nombre": "Pizza",
+    "precio": 40,
+    "categoria": "Comida",
+    "imagen": "assets/votv-pizza.png",
+    "id":0
+}, {
+    "nombre": "Hamburguesa",
+    "precio": 20,
+    "categoria": "Comida",
+    "imagen": "assets/votv-burger.png",
+    "id":1
+}, {
+    "nombre": "Barra de Chocolate",
+    "precio": 25,
+    "categoria": "Comida",
+    "imagen": "assets/votv-choc.png",
+    "id":2
+}, {
+    "nombre": "Cafetera",
+    "precio": 200,
+    "categoria": "Electro",
+    "imagen": "assets/votv-coffeemachine.png",
+    "id":3
+}, {
+    "nombre": "Dron",
+    "precio": 300,
+    "categoria": "Electro",
+    "imagen": "assets/votv-drone.png",
+    "id":4
+}, {
+    "nombre": "Cámara",
+    "precio": 100,
+    "categoria": "Electro",
+    "imagen": "assets/votv-camera.png",
+    "id":5
+}, {
+    "nombre": "Rollo de Papel Higiénico",
+    "precio": 5,
+    "categoria": "Limpieza",
+    "imagen": "assets/votv-TP.png",
+    "id":6
+}, {
+    "nombre": "Esponja",
+    "precio": 3,
+    "categoria": "Limpieza",
+    "imagen": "assets/votv-sponge.png",
+    "id":7
+}, {
+    "nombre": "Jabón",
+    "precio": 5,
+    "categoria": "Limpieza",
+    "imagen": "assets/votv-soap.png",
+    "id":8
+}, {
+    "nombre": "Florero",
+    "precio": 50,
+    "categoria": "Deco",
+    "imagen": "assets/votv-vase.png",
+    "id":9
+}, {
+    "nombre": "Cactus",
+    "precio": 35,
+    "categoria": "Deco",
+    "imagen": "assets/Votv_Cacti.webp",
+    "id":10
+}, {
+    "nombre": "Aro de basquet",
+    "precio": 60,
+    "categoria": "Deco",
+    "imagen": "assets/votv-hoop.png",
+    "id":11
+}, {
+    "nombre": "Gorra",
+    "precio": 60,
+    "categoria": "Ropa",
+    "imagen": "#",
+    "id":12
+}, {
+    "nombre": "Lentes de sol",
+    "precio": 30,
+    "categoria": "Ropa",
+    "imagen": "#",
+    "id":13
+}, {
+    "nombre": "Bufanda",
+    "precio": 60,
+    "categoria": "Ropa",
+    "imagen": "#",
+    "id":14
+}]

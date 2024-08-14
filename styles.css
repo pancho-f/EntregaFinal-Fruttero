@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: yellow;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+p, h1{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+body, #navbar, #ordenActual, #ordenes{
+    border: 2px solid white;
+    border-radius: 1px;
+}
+body{
+    background-color: #0a0a0a;
+    margin: 4px;
+    padding: 2px;
+}
+#navbar{
+    background-color: #0a0a0a;
+    height: 7vh;
+    padding: 3px 5px;
+    display: flex;
+}
+#navbar a{
+    border: 2px solid yellow;
+    border-radius: 1px;
+    margin: 0px 2px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+#interfaz{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 8px 4px 2px;
+    height: 90vh;
+}
+#catalogo{
+    background-color: #0a0a0a;
+    grid-row: 1/3;
+}
+#catalogo nav{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border: 2px solid yellow;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0a0a;
+    padding: 5px;
+    width: 100%;
+    margin: 0px 2px;
+}
+#listaCatalogo{
+    border: 2px solid white;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+}
+#listaCatalogo li, #listaCarrito li, #listaOrdenes li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.imagenProducto{
+    width: 2em;
+    height: 2em;
+    border-right: 1px solid grey;
+}
+.productoSpan{
+    display: flex;
+}
+.precio, #precioTotal{
+    color: cyan;
+}
+.botonCheck, .botonEliminar{
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.botonCheck{
+    border: 1px solid green;
+}
+.botonEliminar{
+    border: 1px solid darkred;
+}
+#ordenActual{
+    background-color: #0a0a0a;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#carritoH1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 90%;
+}
+#listaCarrito{
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: column;
+}
+#ordenActual button{
+    width: initial;
+    font-size: 1.5em;
+}
+#ordenActual div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    border-top: 2px solid white;
+}
+#ordenes{
+    background-color: #0a0a0a;
+    margin-left: 5px;
+}
+#ordenes h1{
+    border-bottom: 2px solid white;
+}
+#ordenes .precio{
+    color: #d600d6;
+}
+
+/* SweetAlert */
+.alertContainer{
+    border-radius: 0px;
+    color: yellow;
+    background-color: #101010;
+}
+.errorAlert{
+    /* color: rgb(255, 164, 164); */
+    color: #0a0a0a;
+}
