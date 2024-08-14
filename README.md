@@ -1,1 +1,2 @@
 # EntregaFinal-Fruttero
+Este proyecto es un simulador interactivo de una tienda online inspirada en la interfaz de un videojuego. Contiene una seccion de catálogo con filtros de categorias, una seccion de carrito, y una seccion de compras ya realizadas a las que se les puede hacer clic para ver sus contenidos. El carrito y las compras anteriores se almacenan en localStorage para mantenerse entre sesiones. Además, utiliza la libreria SweetAlert.
